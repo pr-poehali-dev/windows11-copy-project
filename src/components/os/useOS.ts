@@ -8,6 +8,7 @@ const APP_DEFAULTS: Record<AppId, { title: string; width: number; height: number
   terminal: { title: 'Терминал', width: 640, height: 420 },
   notifications: { title: 'Уведомления', width: 420, height: 500 },
   start: { title: 'Меню', width: 360, height: 480 },
+  yandex: { title: 'Яндекс Браузер', width: 900, height: 620 },
 };
 
 let windowCounter = 0;

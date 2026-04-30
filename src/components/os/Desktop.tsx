@@ -10,6 +10,7 @@ import FileManager from './apps/FileManager';
 import AppCatalog from './apps/AppCatalog';
 import Terminal from './apps/Terminal';
 import Settings from './apps/Settings';
+import YandexBrowser from './apps/YandexBrowser';
 
 function AppContent({ appId }: { appId: AppId }) {
   switch (appId) {
@@ -17,6 +18,7 @@ function AppContent({ appId }: { appId: AppId }) {
     case 'apps': return <AppCatalog />;
     case 'terminal': return <Terminal />;
     case 'settings': return <Settings />;
+    case 'yandex': return <YandexBrowser />;
     case 'notifications': return (
       <div className="h-full overflow-y-auto p-4">
         <p className="text-sm mb-4" style={{ color: 'var(--os-text-dim)' }}>Здесь собраны все системные уведомления.</p>

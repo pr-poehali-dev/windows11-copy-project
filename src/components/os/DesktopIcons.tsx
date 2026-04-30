@@ -10,6 +10,7 @@ const ICONS: { id: AppId; emoji: string; label: string; color: string }[] = [
   { id: 'terminal', emoji: '💻', label: 'Терминал', color: 'linear-gradient(135deg, #059669, #064e3b)' },
   { id: 'settings', emoji: '⚙️', label: 'Настройки', color: 'linear-gradient(135deg, #475569, #1e293b)' },
   { id: 'notifications', emoji: '🔔', label: 'Центр уведомлений', color: 'linear-gradient(135deg, #d97706, #78350f)' },
+  { id: 'yandex', emoji: '🔴', label: 'Яндекс', color: 'linear-gradient(135deg, #ff3d3d, #b91c1c)' },
 ];
 
 export default function DesktopIcons({ onOpenApp }: DesktopIconsProps) {

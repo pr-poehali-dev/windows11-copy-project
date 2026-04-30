@@ -12,6 +12,7 @@ const MENU_APPS: { id: AppId; icon: string; label: string; desc: string }[] = [
   { id: 'terminal', icon: '💻', label: 'Терминал', desc: 'Командная строка' },
   { id: 'settings', icon: '⚙️', label: 'Настройки', desc: 'Параметры системы' },
   { id: 'notifications', icon: '🔔', label: 'Уведомления', desc: 'Центр уведомлений' },
+  { id: 'yandex', icon: '🔴', label: 'Яндекс Браузер', desc: 'Поиск и сервисы Яндекса' },
 ];
 
 const RECENT = ['Отчёт_апрель.docx', 'Презентация.pptx', 'Бюджет_2026.xlsx'];

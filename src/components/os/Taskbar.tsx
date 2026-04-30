@@ -20,6 +20,7 @@ const PINNED_APPS: { id: AppId; icon: string; label: string }[] = [
   { id: 'apps', icon: 'Grid3X3', label: 'Каталог' },
   { id: 'terminal', icon: 'Terminal', label: 'Терминал' },
   { id: 'settings', icon: 'Settings', label: 'Настройки' },
+  { id: 'yandex', icon: 'Globe', label: 'Яндекс' },
 ];
 
 export default function Taskbar({

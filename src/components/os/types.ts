@@ -1,4 +1,4 @@
-export type AppId = 'files' | 'apps' | 'settings' | 'terminal' | 'notifications' | 'start';
+export type AppId = 'files' | 'apps' | 'settings' | 'terminal' | 'notifications' | 'start' | 'yandex';
 
 export interface WindowState {
   id: string;
